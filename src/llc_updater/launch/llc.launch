@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="llc_updater" pkg="llc_updater" type="llc_updater.py" output="screen"/>
+</launch>

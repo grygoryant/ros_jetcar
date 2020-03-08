@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<!--Joy Node -->
+    <include file="$(find joy)/launch/joy.launch"/>
+    <!--LLC Node -->
+    <include file="$(find llc_updater)/launch/llc.launch"/>
+
+    
+</launch>
